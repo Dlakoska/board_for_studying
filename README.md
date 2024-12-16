@@ -1,1 +1,1 @@
-# DRF
+Создание и запуск контейнеров docker-compose up -d --build
