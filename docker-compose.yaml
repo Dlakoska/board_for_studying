@@ -39,7 +39,7 @@ services:
   celery:
     build: .
     tty: true
-    command: celery -A config worker -l INFO eventlet
+    command: celery -A config worker -l INFO
     restart: on-failure
     volumes:
       - .:/app
